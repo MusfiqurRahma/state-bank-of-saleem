@@ -3,6 +3,7 @@ import About from '../About/About';
 import Banner from '../Banner/Banner';
 import MoneyBox from '../MoneyBox/MoneyBox';
 import Navigation from '../Navigation/Navigation';
+import PricingPlan from '../PricingPlan/PricingPlan';
 import Services from '../Services/Services';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <MoneyBox></MoneyBox>
             <About></About>
             <Services></Services>
+            <PricingPlan></PricingPlan>
         </div>
     );
 };
