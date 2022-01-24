@@ -3,7 +3,30 @@ import { Card, CardGroup, Container } from 'react-bootstrap';
 
 const PricingPlan = () => {
     return (
-        <Container>
+        <div
+            style={{
+                backgroundColor: '#f7f7f7',
+                paddingTop: '1px',
+                paddingBottom:'80px'
+            }}>
+        <Container style={{ marginTop: '130px' }}>
+            <p style={{
+                fontWeight: '600',
+                fontSize: '22px',
+                color: '#1521cf',
+                fontFamily:'poppins'
+            }}>Pricing Plan</p>
+            <p style={{
+                color: '#0b1035',
+                fontWeight: '700',
+                fontSize: '48px',
+                fontFamily: 'poppins'
+            }}>Grab our Mega Deposit <span style={{ color: '#1521cf' }}> Package</span></p>
+            <p style={{
+                fontWeight: '400',
+                fontFamily: 'poppins',
+                color: '#6d6d6d',
+            }}>Check out our Vast range of Plans For you.</p>
             <CardGroup>
                 <Card
                     style={{
@@ -138,6 +161,7 @@ const PricingPlan = () => {
                   </Card>
             </CardGroup>
             </Container>
+        </div>
     );
 };
 

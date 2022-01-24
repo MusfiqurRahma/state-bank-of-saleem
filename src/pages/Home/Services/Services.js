@@ -12,7 +12,10 @@ const Services = () => {
     },[])
     return (
         <Container
-            style={{ marginTop: '130px' }}>
+            style={{
+                marginTop: '130px',
+                marginBottom: '50px'
+            }}>
             <p style={{
                 fontWeight: '600',
                 fontSize: '22px',
