@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Banner.css';
 
 
@@ -28,13 +29,15 @@ const Banner = () => {
                     width:'185px',
                     height:'48.37px'
                 }}>Create account</button>
-            <button style={{ background:'#1521cf',
+                <Link to='/checkBalance'>
+                <button style={{ background:'#1521cf',
                     color:'#fff',
                     fontFamily:'poppins',
                     borderRadius: '64px',
                     border:'1px solid #1521cf',
                     width:'185px',
                     height:'48.37px'}}>Check Balance</button>
+                </Link>
             </div>
         </div>
     );
