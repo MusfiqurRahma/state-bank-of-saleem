@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Service from '../Service/Service';
+import servicesLogo from '../../../image/vertical.png';
 
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -21,7 +22,7 @@ const Services = () => {
                 fontSize: '22px',
                 color: '#1521cf',
                 fontFamily:'poppins'
-            }}>Best Services</p>
+            }}> <img src={servicesLogo} alt="" /> Best Services</p>
             <p style={{
                 color: '#0b1035',
                 fontWeight: '700',

@@ -1,19 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Banner.css';
-
+import vertical from '../../../image/vertical.png'
 
 const Banner = () => {
     return (
         <div className='banner-container'>
             <div style={{ marginRight: '65%' }}>
-                <div style={{color:'#cfdde8'}}>.</div>
+                <div style={{ color: '#cfdde8' }}>.</div>
                 <p style={{
                     marginTop: '8%',
                     color: '#1521cf',
                     fontSize: '22px',
-                    fontWeight:'600'
-                }}>Welcome To Salem</p>
+                    fontWeight: '600',
+                    fontFamily: 'poppins',
+                    marginBottom: '10px',
+                    marginRight:'80px'
+                }} className='welcome-header'><img src={vertical} alt="" /> Welcome To Salem</p>
                 <p
                     style={{
                         fontSize: '48px',

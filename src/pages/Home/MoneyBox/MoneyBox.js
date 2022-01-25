@@ -2,8 +2,8 @@ import React from 'react';
 import { Card, Container } from 'react-bootstrap';
 import moneyImg from '../../../image/money Transfer.png';
 import withdrawImg from '../../../image/withdraw.png';
-import depositImg from '../../../image/deposite.png';
-import paymentImg from '../../../image/payment.png';
+import depositImg from '../../../image/NewDeposite.png';
+import paymentImg from '../../../image/MobilePay.png';
 
 const MoneyBox = () => {
     return (
@@ -21,7 +21,13 @@ const MoneyBox = () => {
                     marginTop: '70px',
                 }} src={moneyImg} alt="" />
       <Card.Body>
-      <Card.Title style={{fontFamily:'poppins'}}>Money Transfer</Card.Title>
+                    <Card.Title style={{
+                        fontFamily: 'poppins',
+                        fontSize: '20px',
+                        lineHeight: '30px',
+                        fontWeight: '600',
+                        color:'#0b1035'
+                    }}>Money Transfer</Card.Title>
     </Card.Body>
     </Card>
         <Card style={{
@@ -39,10 +45,18 @@ const MoneyBox = () => {
                     fontFamily:'poppins'
                 }} src={withdrawImg} alt="" />
       <Card.Body>
-      <Card.Title style={{fontFamily:'poppins'}}>Withdrawal</Card.Title>
+                    <Card.Title
+                        style={{
+                            fontFamily: 'poppins',
+                        fontSize: '20px',
+                        lineHeight: '30px',
+                        fontWeight: '600'}}>Withdrawal</Card.Title>
     </Card.Body>
     </Card>
-    <Card style={{ width: '15rem', margin: '18px'}}>
+            <Card style={{
+                width: '15rem',
+                margin: '18px'
+            }}>
             <img
                 style={{
                     width: '59px',
@@ -51,10 +65,19 @@ const MoneyBox = () => {
                     marginTop: '70px',
                 }} src={depositImg} alt="" />
       <Card.Body>
-      <Card.Title style={{fontFamily:'poppins'}}>Bank Deposit</Card.Title>
+                    <Card.Title
+                        style={{
+                        fontFamily: 'poppins',
+                        fontSize: '20px',
+                        lineHeight: '30px',
+                        fontWeight: '600',
+                        color:'#0b1035'}}>Bank Deposit</Card.Title>
     </Card.Body>
     </Card>
-    <Card style={{ width: '15rem', margin: '18px'}}>
+            <Card style={{
+                width: '15rem',
+                margin: '18px'
+            }}>
             <img
                 style={{
                     width: '59px',
@@ -65,7 +88,14 @@ const MoneyBox = () => {
                 }} src={paymentImg} alt="" />
       <Card.Body>
                 <Card.Title
-                    style={{ fontFamily: 'poppins', marginBottom: '50px' }}>Online Payment</Card.Title>
+                        style={{ 
+                            fontFamily: 'poppins',
+                            fontSize: '20px',
+                            lineHeight: '30px',
+                            fontWeight: '600',
+                            color: '#0b1035',
+                            marginBottom:'50px'
+                     }}>Online Payment</Card.Title>
     </Card.Body>
     </Card>
     </Container>

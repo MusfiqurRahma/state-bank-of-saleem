@@ -33,9 +33,10 @@ const Login = () => {
                             <Button
                                 style={{
                                     backgroundColor: '#1521cf',
-                                    marginRight: '40%', borderRadius: '64px', fontWeight: '600',
+                                    marginRight: '43%', borderRadius: '64px', fontWeight: '600',
                                     width: '185px',
-                                    height:'48px'
+                                    height: '48px',
+                                    marginTop:'10px'
                                 }} type="submit" variant="contained">Check Balance</Button> <br /><br />
                 </form>
               </Col>

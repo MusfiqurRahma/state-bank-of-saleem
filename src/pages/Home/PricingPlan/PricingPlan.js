@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardGroup, Container } from 'react-bootstrap';
+import pricingPlanLogo from '../../../image/vertical.png';
 
 const PricingPlan = () => {
     return (
@@ -15,7 +16,7 @@ const PricingPlan = () => {
                 fontSize: '22px',
                 color: '#1521cf',
                 fontFamily:'poppins'
-            }}>Pricing Plan</p>
+            }}> <img src={pricingPlanLogo} alt="" /> Pricing Plan</p>
             <p style={{
                 color: '#0b1035',
                 fontWeight: '700',

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import salemLogo from '../../../image/footer logo.png';
 import gPayImg from '../../../image/g-pay.png';
 import appStore from '../../../image/app-store.png';
-import facebook from '../../../image/fb.png';
+import facebook from '../../../image/FacebookLogo.png';
 import instagram from '../../../image/1161953_instagram_icon.png';
 import twitter from '../../../image/twitter.png';
 import youtube from '../../../image/youtube-500.png';

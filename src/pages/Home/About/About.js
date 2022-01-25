@@ -3,11 +3,16 @@ import { Col,Container,Row } from 'react-bootstrap';
 import secondImg from '../../../image/image.png';
 import firstImg from '../../../image/laptop women.jpeg';
 import goalsImg from '../../../image/goalss.png';
-import visionImg from '../../../image/vision.png';
+import visionImg from '../../../image/vision 1.png';
+import verticalLogo from '../../../image/vertical.png';
 
 const About = () => {
     return (
-      <Container> <Row style={{marginTop:'120px'}}>
+        <div style={{
+            backgroundColor: '#F7F7F7',
+            paddingTop: '0.5%'
+        }}>
+            <Container> <Row style={{ marginTop: '120px' }}>
            <Col xs={12} md={7}>
                    <p
                        style={{
@@ -19,7 +24,10 @@ const About = () => {
                            fontSize: '35px',
                            color: 'white',
                            fontFamily: 'poppins',
-                       }}>100 <span style={{ fontSize: '16px'}}><br />Awards</span></p>
+                    }}>100 <span
+                        style={{
+                            fontSize: '16px',
+                        }}><br />Awords</span></p>
              
                    <img
                        style={{
@@ -57,8 +65,8 @@ const About = () => {
                             fontFamily: 'poppins',
                             fontSize: '22px',
                             fontWeight: '600',
-                            textAlign:'left'
-                        }}>About us</p>
+                            textAlign: 'left',
+                        }}> <img src={verticalLogo} alt="" /> About us</p>
                     <p style={{
                         fontSize: '36px',
                         fontFamily: 'poppins',
@@ -105,7 +113,9 @@ const About = () => {
                         height:'48px'
                     }}>More About US</button>
          </Col>
-       </Row> </Container> 
+            </Row>
+            </Container> 
+            </div>
     );
 };
 

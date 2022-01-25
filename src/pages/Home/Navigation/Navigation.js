@@ -15,11 +15,23 @@ const Navigation = () => {
                     style={{
                         fontSize: '16px',
                         color: '#a2a2a2',
-                        fontFamily: 'poppins'
-                    }}> <img src={houseLogo} alt="" /> Business</Navbar.Brand>
+                        fontFamily: 'poppins',
+                        fontStyle: 'normal',
+                        lineHeight: '24px',
+                        width: '73px',
+                        height: '23px',
+                        fontWeight:'400'
+            }}> <img
+              style={{
+                width: '23.33px',
+                height: '21px',
+                marginTop:'-4px',
+                marginLeft: '13.33%'}} src={houseLogo} alt="" /> Business</Navbar.Brand>
                <Nav.Link
               style={{
                 fontSize: '16px',
+                marginTop:'13px',
+                marginLeft:'22px',
                 color: '#a2a2a2',
                 fontFamily:'poppins'
                 }}> <img src={userLogo} alt="" /> Personal</Nav.Link>
@@ -32,14 +44,18 @@ const Navigation = () => {
             <Nav.Link style={{
             fontSize: '16px',
             color: '#1521cf',
-            fontFamily: 'poppins',
+                fontFamily: 'poppins',
+            marginTop:'20px'
             }}> <img src={telephoneLogo} alt="" /> 1-800-356-6522</Nav.Link>
             <Link to='/login' eventKey={2}
                             style={{
                                 color: '#a2a2a2',
                                 fontFamily: 'poppins',
                                 textDecoration: 'none',
-                                marginTop:'6px'
+                                marginTop: '26px',
+                                marginLeft: '22px',
+                                marginRight:'8px'
+                              
                             }}>
                             <img src={doorLogo} alt="" /> Sign up/Login
                   </Link>
@@ -47,10 +63,20 @@ const Navigation = () => {
                 </Navbar.Collapse>
               </Container>
             </Navbar>
-            <hr style={{ width: '81.5%', margin: 'auto' }} />
+        <hr
+          style={{
+            width: '82.5%',
+            margin: 'auto'
+          }} />
             <Navbar collapseOnSelect expand="lg" bg="white" variant="dark">
   <Container>
-  <Navbar.Brand> <img src={saleemLogo} alt="" /> </Navbar.Brand>
+            <Navbar.Brand> <img
+              style={{
+                width: '115px',
+                height: '42px',
+                marginTop: '31px',
+                marginLeft: '10px'
+              }} src={saleemLogo} alt="" /> </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav style={{margin:'auto'}}>
@@ -59,13 +85,50 @@ const Navigation = () => {
                     color: '#9c9c9c',
                     fontFamily: 'poppins',
                     textDecoration: 'none',
-                    marginTop:'8px'
+                    marginTop: '32px',
+                    marginRight: '33px',
+                    fontSize:'16px'
                   }}>Home</Link>
-      <Nav.Link  style={{color:'#9c9c9c',fontFamily:'poppins'}}>Loan</Nav.Link>
-      <Nav.Link  style={{color:'#9c9c9c',fontFamily:'poppins'}}>About us</Nav.Link>
-      <Nav.Link style={{color:'#9c9c9c',fontFamily:'poppins'}}>Services</Nav.Link>
-      <Nav.Link  style={{color:'#9c9c9c',fontFamily:'poppins'}}>Pages</Nav.Link>
-      <Nav.Link  style={{color:'#9c9c9c',fontFamily:'poppins'}}>Blog</Nav.Link>
+                <Nav.Link
+                  style={{
+                    color: '#9c9c9c',
+                    fontFamily: 'poppins',
+                    marginTop: '23px',
+                    marginRight: '33px',
+                    fontSize:'16px'
+                  }}>Loan</Nav.Link>
+                <Nav.Link
+                  style={{
+                    color: '#9c9c9c',
+                    fontFamily: 'poppins',
+                    marginTop: '23px',
+                    marginRight: '33px',
+                    fontSize:'16px'
+                  }}>About us</Nav.Link>
+                <Nav.Link
+                  style={{
+                    color: '#9c9c9c',
+                    fontFamily: 'poppins',
+                    marginTop: '23px',
+                    marginRight: '33px',
+                    fontSize:'16px'
+                  }}>Services</Nav.Link>
+                <Nav.Link
+                  style={{
+                    color: '#9c9c9c',
+                    fontFamily: 'poppins',
+                    marginTop: '23px',
+                    marginRight: '33px',
+                    fontSize:'16px'
+                  }}>Pages</Nav.Link>
+                <Nav.Link
+                  style={{
+                    color: '#9c9c9c',
+                    fontFamily: 'poppins',
+                    marginTop: '23px',
+                    marginRight: '33px',
+                    fontSize:'16px'
+                  }}>Blog</Nav.Link>
     </Nav>
     <Nav>
          <button
@@ -77,7 +140,8 @@ const Navigation = () => {
                  width: '185px',
                  height: '48.37px',
                  border: '1px solid #1521cf',
-                 }}>Apply Now</button>
+                 marginTop:'20px'
+                 }}>Apply now</button>
           </Nav>
         </Navbar.Collapse>
        </Container>

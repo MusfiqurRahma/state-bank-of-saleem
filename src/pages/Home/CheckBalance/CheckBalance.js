@@ -2,10 +2,11 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Navigation from '../Navigation/Navigation';
 import CheckBalanceImg from '../../../image/checkBalance.png';
-import ring1 from '../../../image/ring1.png';
+import ring1 from '../../../image/rect1.png';
 import ring2 from '../../../image/ring2.png';
 import ring3 from '../../../image/ring3.png';
-import dangerImage from '../../../image/danger.png'
+import dangerImage from '../../../image/dangerZone.png';
+import balanceLogo from '../../../image/vertical.png';
 
 
 const CheckBalance = () => {
@@ -22,7 +23,7 @@ const CheckBalance = () => {
                                 fontWeight: '600',
                                 fontFamily: 'poppins',
                                 textAlign:'left'
-                            }}>Account Balance</p>
+                            }}> <img src={balanceLogo} alt="" /> Account Balance</p>
                         <p
                             style={{
                                 color: '#000000',
@@ -69,21 +70,13 @@ const CheckBalance = () => {
                                    }}>Maintainance</p>           
                     </Col> 
                             </Row>
-                            <div><p style={{
-                                border: '1px solid #d7d7d7',
-                                color: '#d7d7d7',
-                                fontFamily: 'poppins',
-                                justifyContent: 'center',
-                                fontSize: '13px',
-                                borderRadius:'5px'
-                            }}>
+                            <div>
                                 <img
                                     style={{
-                                        width: '50px',
-                                        height: '50px', marginRight: '20px',
-                                        marginTop:'20px'
-                                    }} src={dangerImage} alt="" />Your Account may be Blocked as no activity has taken place for a long time Plese Login to prevent this from Happening.</p>  </div>
-                            <div style={{marginTop:'50px'}}>
+                                        border: '1px solid #d7d7d7',
+                                        padding: '10px', borderRadius: '5px'
+                                    }} src={dangerImage} alt="" />
+                            </div>                            <div style={{ marginTop: '50px' }}>
                                 <p
                                     style={{
                                         borderBottom: '1px solid #d7d7d7', fontSize: '28px', fontWeight: '600', fontFamily: 'poppins',
